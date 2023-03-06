@@ -20,6 +20,10 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -31,27 +35,27 @@
     <div>
       <h2>Buttons</h2>
       <div>
-        <button>Primary</button>
-        <button>Secondary</button>
-        <button>Error</button>
+        <button class="primary-button">Primary</button>
+        <button class="secondary-button">Secondary</button>
+        <button disabled class="error-button">Error</button>
       </div>
     </div>
     <div>
       <h2>Links</h2>
       <div>
-        <a href="#">Primary link</a>
-        <a href="#">Secondary link</a>
+        <a class="primary-link" href="#">Primary link</a>
+        <a class="secondary-link" href="#">Secondary link</a>
       </div>
     </div>
     <div>
       <h2>Form elements</h2>
       <form action="#">
         <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" />
+        <input class="name-input"type="text" id="name" name="name" />
         <label for="comments">Comments:</label>
-        <textarea id="comments" name="comments"></textarea>
+        <textarea class="comment-input"id="comments" name="comments"></textarea>
 
-        <button>Save</button>
+        <button class="save-button" >Save</button>
       </form>
     </div>
   </main>

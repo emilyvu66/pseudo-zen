@@ -1,1 +1,207 @@
-/* Place CSS styles here */
+/* Text */
+
+.title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+    font-family: "JetBrains Mono",monospace;
+}
+
+/* Buttons */
+.primary-button {
+    background-color: #FCFCFD;
+    box-shadow: #2d2342 0 2px 4px, #D6D6E7 0 -3px 0 inset;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 4px;
+    border-width: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: transform .10s;
+}
+
+.secondary-button {
+    background-color: #FCFCFD;
+    box-shadow: #2d2342 0 2px 4px, #D6D6E7 0 -3px 0 inset;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 4px;
+    border-width: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: transform .10s;
+}
+
+.error-button {
+    background-color: #FCFCFD;
+    box-shadow: #2d2342 0 2px 4px, #D6D6E7 0 -3px 0 inset;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 4px;
+    border-width: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: transform .10s;
+}
+
+.save-button {
+    background-color: #FCFCFD;
+    box-shadow: #2d2342 0 2px 4px, #D6D6E7 0 -3px 0 inset;
+    font-size: 18px;
+    height: 44px;
+    border-radius: 4px;
+    border-width: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: transform .10s;
+}
+
+.primary-button:hover {
+    background-color: #e8e8f8;
+    transform: translateY(-2px);
+}
+
+.primary-button:focus {
+    background-color: #e8e8f8;
+    transform: translateY(-2px);
+}
+
+.primary-button:active {
+    transform: translateY(4px);
+  }
+
+.primary-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.secondary-button:hover {
+    background-color: #e8e8f8;
+    transform: translateY(-2px);
+}
+
+.secondary-button:focus {
+    background-color: #e8e8f8;
+    transform: translateY(-2px);
+}
+
+.secondary-button:active {
+    transform: translateY(4px);
+  }
+
+.secondary-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.error-button:hover {
+    background-color: #e8e8f8;
+    transform: translateY(-2px);
+}
+
+.error-button:focus {
+    background-color: #e8e8f8;
+    transform: translateY(-2px);
+}
+
+.error-button:active {
+    transform: translateY(4px);
+  }
+
+.error-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.save-button:hover {
+    background-color: #e8e8f8;
+    transform: translateY(-2px);
+}
+
+.save-button:focus {
+    background-color: #e8e8f8;
+    transform: translateY(-2px);
+}
+
+.save-button:active {
+    transform: translateY(4px);
+  }
+
+.save-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Links */
+
+.primary-link {
+
+}
+
+.secondary-link {
+
+}
+
+.primary-link:hover {
+
+}
+
+.primary-link:focus {
+
+}
+
+.primary-link:visited {
+
+}
+
+.primary-link:disabled {
+
+}
+
+.secondary-link:hover {
+
+}
+
+.secondary-link:focus {
+
+}
+
+.secondary-link:visited {
+
+}
+
+.secondary-link:disabled {
+
+}
+
+/* Inputs */
+
+.name-input{
+
+}
+
+.comment-input{
+
+}
+
+/* Also add when has an error */
+
+.name-input:hover{
+
+}
+
+.name-input:focus{
+    
+}
+
+.name-input:disabled{
+    
+}
