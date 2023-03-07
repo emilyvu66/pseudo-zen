@@ -203,5 +203,17 @@ body {
 }
 
 .name-input:disabled{
+    cursor: not-allowed;
+}
+
+.comment-input:hover{
+
+}
+
+.comment-input:focus{
     
+}
+
+.comment-input:disabled{
+    cursor: not-allowed;
 }
