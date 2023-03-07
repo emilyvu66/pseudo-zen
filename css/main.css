@@ -143,15 +143,15 @@ body {
 /* Links */
 
 .primary-link {
-    color:#ff0000;
+    color: #3535F3;
 }
 
 .secondary-link {
-    color:#ff0000;
+    color: #3535F3;
 }
 
 .primary-link:visited {
-    color: #5d5df6;
+    color: #2525b1;
 }
 
 .primary-link:focus {
@@ -167,7 +167,7 @@ body {
 }
 
 .secondary-link:visited {
-    color: #5d5df6;
+    color: #2525b1;
 }
 
 .secondary-link:focus {
