@@ -143,43 +143,43 @@ body {
 /* Links */
 
 .primary-link {
-
+    color:#ff0000;
 }
 
 .secondary-link {
-
-}
-
-.primary-link:hover {
-
-}
-
-.primary-link:focus {
-
+    color:#ff0000;
 }
 
 .primary-link:visited {
+    color: #5d5df6;
+}
 
+.primary-link:focus {
+    background:#e0e0f8;
+}
+
+.primary-link:hover {
+    background:#e0e0f8;
 }
 
 .primary-link:disabled {
-
-}
-
-.secondary-link:hover {
-
-}
-
-.secondary-link:focus {
-
+    cursor: not-allowed;
 }
 
 .secondary-link:visited {
+    color: #5d5df6;
+}
 
+.secondary-link:focus {
+    background:#e0e0f8;
+}
+
+.secondary-link:hover {
+    background:#e0e0f8;
 }
 
 .secondary-link:disabled {
-
+    cursor: not-allowed;
 }
 
 /* Inputs */
