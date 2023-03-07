@@ -211,11 +211,11 @@ body {
 /* Also add when has an error */
 
 .name-input:hover{
-
+    border: 5px solid #555;
 }
 
 .name-input:focus{
-    
+    border: 5px solid #555;
 }
 
 .name-input:disabled{
@@ -223,11 +223,11 @@ body {
 }
 
 .comment-input:hover{
-
+    border: 5px solid #555;
 }
 
 .comment-input:focus{
-    
+    border: 5px solid #555;
 }
 
 .comment-input:disabled{
