@@ -193,7 +193,7 @@ body {
     border-width: 5px;
     width: 50%;
     padding: 5px 10px;
-    margin: 8px 0;
+    margin: 8px;
 }
 
 .comment-input{
@@ -205,17 +205,19 @@ body {
     border-width: 5px;
     width: 50%;
     padding: 10px 10px;
-    margin: 8px 0;
+    margin: 8px;
 }
 
 /* Also add when has an error */
 
 .name-input:hover{
-    border: 5px solid #555;
+    border-color: #555;
+    border-width: 5px;
 }
 
 .name-input:focus{
-    border: 5px solid #555;
+    border-color: #555;
+    border-width: 5px;
 }
 
 .name-input:disabled{
@@ -223,11 +225,13 @@ body {
 }
 
 .comment-input:hover{
-    border: 5px solid #555;
+    border-color: #555;
+    border-width: 5px;
 }
 
 .comment-input:focus{
-    border: 5px solid #555;
+    border-color: #555;
+    border-width: 5px;
 }
 
 .comment-input:disabled{
