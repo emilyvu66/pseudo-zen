@@ -208,8 +208,6 @@ body {
     margin: 8px;
 }
 
-/* Also add when has an error */
-
 .name-input:hover{
     border-color: #555;
     border-width: 5px;
@@ -235,5 +233,57 @@ body {
 }
 
 .comment-input:disabled{
+    cursor: not-allowed;
+}
+
+.name-error-input{
+    background-color: #FCFCFD;
+    border-color: #ad6e6e;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 8px;
+    border-width: 5px;
+    width: 50%;
+    padding: 5px 10px;
+    margin: 8px;
+}
+
+.comment-error-input{
+    background-color: #FCFCFD;
+    border-color: #ad6e6e;
+    font-size: 14px;
+    height: 50px;
+    border-radius: 8px;
+    border-width: 5px;
+    width: 50%;
+    padding: 10px 10px;
+    margin: 8px;
+}
+
+.name-error-input:hover{
+    border-color: #9e5b5b;
+    border-width: 5px;
+}
+
+.name-error-input:focus{
+    border-color: #9e5b5b;
+    border-width: 5px;
+}
+
+.name-error-input:disabled{
+    cursor: not-allowed;
+}
+
+.comment-error-input:hover{
+    border-color: #9e5b5b;
+    border-width: 5px;
+}
+
+.comment-error-input:focus{
+    border-color: #9e5b5b;
+    border-width: 5px;
+}
+
+.comment-error-input:disabled{
     cursor: not-allowed;
 }
